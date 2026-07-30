@@ -1,0 +1,518 @@
+TYPE,RATE_ID,MANAGEMENT_UNIT_CODE,MANAGEMENT_UNIT_NAME,SPECIES_GROUP_CODE,SPECIES_GROUP_NAME,RATE_TYPE_CODE,RATE_TYPE_NAME,RATE,EFFECTIVE_DATE,EXPIRY_DATE
+RATE,1,035,Black Spruce Forest,CON,Conifer,FRC,Forest Renewal Charge,6.50,01042026,31032027
+RATE,2,035,Black Spruce Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.50,01042026,31032027
+RATE,3,035,Black Spruce Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,4,035,Black Spruce Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,5,035,Black Spruce Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,6,035,Black Spruce Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.25,01042026,31032027
+RATE,7,035,Black Spruce Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,8,035,Black Spruce Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.50,01042026,31032027
+RATE,9,035,Black Spruce Forest,POP,Poplar,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,10,035,Black Spruce Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,11,035,Black Spruce Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,12,035,Black Spruce Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,13,060,White River Forest,CON,Conifer,FRC,Forest Renewal Charge,3.50,01042026,31032027
+RATE,14,060,White River Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,15,060,White River Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,16,060,White River Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,17,060,White River Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,18,060,White River Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,19,060,White River Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,20,060,White River Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,21,060,White River Forest,POP,Poplar,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,22,060,White River Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,23,060,White River Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,24,060,White River Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,25,110,Abitibi River Forest,CON,Conifer,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,26,110,Abitibi River Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,2.16,01042026,31032027
+RATE,27,110,Abitibi River Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,7.53,01042026,31032027
+RATE,28,110,Abitibi River Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.42,01042026,31032027
+RATE,29,110,Abitibi River Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.96,01042026,31032027
+RATE,30,110,Abitibi River Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,31,110,Abitibi River Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.36,01042026,31032027
+RATE,32,110,Abitibi River Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,3.79,01042026,31032027
+RATE,33,110,Abitibi River Forest,POP,Poplar,FRC,Forest Renewal Charge,0.30,01042026,31032027
+RATE,34,110,Abitibi River Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,9.88,01042026,31032027
+RATE,35,110,Abitibi River Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,9.11,01042026,31032027
+RATE,36,110,Abitibi River Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.30,01042026,31032027
+RATE,37,120,Trout Lake Forest,CON,Conifer,FRC,Forest Renewal Charge,5.50,01042026,31032027
+RATE,38,120,Trout Lake Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.75,01042026,31032027
+RATE,39,120,Trout Lake Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,40,120,Trout Lake Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,41,120,Trout Lake Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,42,120,Trout Lake Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,43,120,Trout Lake Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,44,120,Trout Lake Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,5.50,01042026,31032027
+RATE,45,120,Trout Lake Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,46,120,Trout Lake Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,47,120,Trout Lake Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,48,120,Trout Lake Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,49,130,Wabigoon Forest,CON,Conifer,FRC,Forest Renewal Charge,6.25,01042026,31032027
+RATE,50,130,Wabigoon Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,51,130,Wabigoon Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,52,130,Wabigoon Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,53,130,Wabigoon Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,54,130,Wabigoon Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,55,130,Wabigoon Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,56,130,Wabigoon Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.25,01042026,31032027
+RATE,57,130,Wabigoon Forest,POP,Poplar,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,58,130,Wabigoon Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,59,130,Wabigoon Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,60,130,Wabigoon Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,61,140,Mazinaw-Lanark Forest,CON,Conifer,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,62,140,Mazinaw-Lanark Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,63,140,Mazinaw-Lanark Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,9.50,01042026,31032027
+RATE,64,140,Mazinaw-Lanark Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,65,140,Mazinaw-Lanark Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,66,140,Mazinaw-Lanark Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,67,140,Mazinaw-Lanark Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,68,140,Mazinaw-Lanark Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,69,140,Mazinaw-Lanark Forest,POP,Poplar,FRC,Forest Renewal Charge,2.15,01042026,31032027
+RATE,70,140,Mazinaw-Lanark Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,12.00,01042026,31032027
+RATE,71,140,Mazinaw-Lanark Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,3.15,01042026,31032027
+RATE,72,140,Mazinaw-Lanark Forest,WBR,White Birch,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,73,175,Caribou Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,74,175,Caribou Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.50,01042026,31032027
+RATE,75,175,Caribou Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,76,175,Caribou Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,77,175,Caribou Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,78,175,Caribou Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,79,175,Caribou Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,80,175,Caribou Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,81,175,Caribou Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,82,175,Caribou Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,83,175,Caribou Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,84,175,Caribou Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,85,177,Dog River-Matawin Forest,CON,Conifer,FRC,Forest Renewal Charge,6.20,01042026,31032027
+RATE,86,177,Dog River-Matawin Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,87,177,Dog River-Matawin Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,88,177,Dog River-Matawin Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,89,177,Dog River-Matawin Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,90,177,Dog River-Matawin Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.25,01042026,31032027
+RATE,91,177,Dog River-Matawin Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,92,177,Dog River-Matawin Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,93,177,Dog River-Matawin Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,94,177,Dog River-Matawin Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,95,177,Dog River-Matawin Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,96,177,Dog River-Matawin Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,97,210,Spanish Forest,CON,Conifer,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,98,210,Spanish Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.39,01042026,31032027
+RATE,99,210,Spanish Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,6.33,01042026,31032027
+RATE,100,210,Spanish Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.21,01042026,31032027
+RATE,101,210,Spanish Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.21,01042026,31032027
+RATE,102,210,Spanish Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,103,210,Spanish Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.39,01042026,31032027
+RATE,104,210,Spanish Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,105,210,Spanish Forest,POP,Poplar,FRC,Forest Renewal Charge,0.39,01042026,31032027
+RATE,106,210,Spanish Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,3.34,01042026,31032027
+RATE,107,210,Spanish Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,3.34,01042026,31032027
+RATE,108,210,Spanish Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.39,01042026,31032027
+RATE,109,220,Bancroft-Minden Forest,CON,Conifer,FRC,Forest Renewal Charge,2.75,01042026,31032027
+RATE,110,220,Bancroft-Minden Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,2.75,01042026,31032027
+RATE,111,220,Bancroft-Minden Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.50,01042026,31032027
+RATE,112,220,Bancroft-Minden Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,2.25,01042026,31032027
+RATE,113,220,Bancroft-Minden Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,2.75,01042026,31032027
+RATE,114,220,Bancroft-Minden Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.75,01042026,31032027
+RATE,115,220,Bancroft-Minden Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.75,01042026,31032027
+RATE,116,220,Bancroft-Minden Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,1.75,01042026,31032027
+RATE,117,220,Bancroft-Minden Forest,POP,Poplar,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,118,220,Bancroft-Minden Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,119,220,Bancroft-Minden Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,3.50,01042026,31032027
+RATE,120,220,Bancroft-Minden Forest,WBR,White Birch,FRC,Forest Renewal Charge,2.75,01042026,31032027
+RATE,121,230,English River Forest,CON,Conifer,FRC,Forest Renewal Charge,6.50,01042026,31032027
+RATE,122,230,English River Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,123,230,English River Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,124,230,English River Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,125,230,English River Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,126,230,English River Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,127,230,English River Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,128,230,English River Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,5.50,01042026,31032027
+RATE,129,230,English River Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,130,230,English River Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,131,230,English River Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,132,230,English River Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,133,280,Timiskaming Forest,CON,Conifer,FRC,Forest Renewal Charge,4.60,01042026,31032027
+RATE,134,280,Timiskaming Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,135,280,Timiskaming Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,136,280,Timiskaming Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,137,280,Timiskaming Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,138,280,Timiskaming Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,139,280,Timiskaming Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,140,280,Timiskaming Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.60,01042026,31032027
+RATE,141,280,Timiskaming Forest,POP,Poplar,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,142,280,Timiskaming Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,5.60,01042026,31032027
+RATE,143,280,Timiskaming Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.60,01042026,31032027
+RATE,144,280,Timiskaming Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.47,01042026,31032027
+RATE,145,350,Kenogami Forest,CON,Conifer,FRC,Forest Renewal Charge,7.25,01042026,31032027
+RATE,146,350,Kenogami Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,7.25,01042026,31032027
+RATE,147,350,Kenogami Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,148,350,Kenogami Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,149,350,Kenogami Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,150,350,Kenogami Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,4.25,01042026,31032027
+RATE,151,350,Kenogami Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,152,350,Kenogami Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,7.25,01042026,31032027
+RATE,153,350,Kenogami Forest,POP,Poplar,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,154,350,Kenogami Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,155,350,Kenogami Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,156,350,Kenogami Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,157,360,French-Severn Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,158,360,French-Severn Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,159,360,French-Severn Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.50,01042026,31032027
+RATE,160,360,French-Severn Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,161,360,French-Severn Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.25,01042026,31032027
+RATE,162,360,French-Severn Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,163,360,French-Severn Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,164,360,French-Severn Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,165,360,French-Severn Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,166,360,French-Severn Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.50,01042026,31032027
+RATE,167,360,French-Severn Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.50,01042026,31032027
+RATE,168,360,French-Severn Forest,WBR,White Birch,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,169,390,Nagagami Forest,CON,Conifer,FRC,Forest Renewal Charge,4.60,01042026,31032027
+RATE,170,390,Nagagami Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,171,390,Nagagami Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,172,390,Nagagami Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,173,390,Nagagami Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,174,390,Nagagami Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,175,390,Nagagami Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,176,390,Nagagami Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,177,390,Nagagami Forest,POP,Poplar,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,178,390,Nagagami Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,179,390,Nagagami Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,180,390,Nagagami Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.17,01042026,31032027
+RATE,181,406,Boundary Waters Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,182,406,Boundary Waters Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,183,406,Boundary Waters Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,184,406,Boundary Waters Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,185,406,Boundary Waters Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,186,406,Boundary Waters Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,187,406,Boundary Waters Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,188,406,Boundary Waters Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,189,406,Boundary Waters Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,190,406,Boundary Waters Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,9.00,01042026,31032027
+RATE,191,406,Boundary Waters Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,9.00,01042026,31032027
+RATE,192,406,Boundary Waters Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,193,415,Ogoki Forest,CON,Conifer,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,194,415,Ogoki Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,5.25,01042026,31032027
+RATE,195,415,Ogoki Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,196,415,Ogoki Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,197,415,Ogoki Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,198,415,Ogoki Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.88,01042026,31032027
+RATE,199,415,Ogoki Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,200,415,Ogoki Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,5.25,01042026,31032027
+RATE,201,415,Ogoki Forest,POP,Poplar,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,202,415,Ogoki Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,203,415,Ogoki Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,204,415,Ogoki Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,205,421,Pineland Forest,CON,Conifer,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,206,421,Pineland Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.43,01042026,31032027
+RATE,207,421,Pineland Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,2.95,01042026,31032027
+RATE,208,421,Pineland Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.56,01042026,31032027
+RATE,209,421,Pineland Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.56,01042026,31032027
+RATE,210,421,Pineland Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,211,421,Pineland Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.43,01042026,31032027
+RATE,212,421,Pineland Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,213,421,Pineland Forest,POP,Poplar,FRC,Forest Renewal Charge,0.43,01042026,31032027
+RATE,214,421,Pineland Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,4.04,01042026,31032027
+RATE,215,421,Pineland Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.04,01042026,31032027
+RATE,216,421,Pineland Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.43,01042026,31032027
+RATE,217,438,Gordon Cosens Forest,CON,Conifer,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,218,438,Gordon Cosens Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,219,438,Gordon Cosens Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,220,438,Gordon Cosens Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,221,438,Gordon Cosens Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,222,438,Gordon Cosens Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,223,438,Gordon Cosens Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,224,438,Gordon Cosens Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,225,438,Gordon Cosens Forest,POP,Poplar,FRC,Forest Renewal Charge,0.58,01042026,31032027
+RATE,226,438,Gordon Cosens Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,227,438,Gordon Cosens Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,228,438,Gordon Cosens Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.58,01042026,31032027
+RATE,229,443,Wabadowgong Noopming Forest,CON,Conifer,FRC,Forest Renewal Charge,6.50,01042026,31032027
+RATE,230,443,Wabadowgong Noopming Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,231,443,Wabadowgong Noopming Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,232,443,Wabadowgong Noopming Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,233,443,Wabadowgong Noopming Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,234,443,Wabadowgong Noopming Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,235,443,Wabadowgong Noopming Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,236,443,Wabadowgong Noopming Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,237,443,Wabadowgong Noopming Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,238,443,Wabadowgong Noopming Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,7.00,01042026,31032027
+RATE,239,443,Wabadowgong Noopming Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,7.00,01042026,31032027
+RATE,240,443,Wabadowgong Noopming Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,241,451,Algonquin Park Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,242,451,Algonquin Park Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,2.50,01042026,31032027
+RATE,243,451,Algonquin Park Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,244,451,Algonquin Park Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,2.50,01042026,31032027
+RATE,245,451,Algonquin Park Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,246,451,Algonquin Park Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,247,451,Algonquin Park Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,248,451,Algonquin Park Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,249,451,Algonquin Park Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,250,451,Algonquin Park Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,12.25,01042026,31032027
+RATE,251,451,Algonquin Park Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.75,01042026,31032027
+RATE,252,451,Algonquin Park Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,253,490,Whiskey Jack Forest,CON,Conifer,FRC,Forest Renewal Charge,3.31,01042026,31032027
+RATE,254,490,Whiskey Jack Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,3.31,01042026,31032027
+RATE,255,490,Whiskey Jack Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.82,01042026,31032027
+RATE,256,490,Whiskey Jack Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.66,01042026,31032027
+RATE,257,490,Whiskey Jack Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.66,01042026,31032027
+RATE,258,490,Whiskey Jack Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.53,01042026,31032027
+RATE,259,490,Whiskey Jack Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,260,490,Whiskey Jack Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.62,01042026,31032027
+RATE,261,490,Whiskey Jack Forest,POP,Poplar,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,262,490,Whiskey Jack Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,9.38,01042026,31032027
+RATE,263,490,Whiskey Jack Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,9.38,01042026,31032027
+RATE,264,490,Whiskey Jack Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,265,535,Dryden Forest,CON,Conifer,FRC,Forest Renewal Charge,6.75,01042026,31032027
+RATE,266,535,Dryden Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,6.75,01042026,31032027
+RATE,267,535,Dryden Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,268,535,Dryden Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,269,535,Dryden Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,270,535,Dryden Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,271,535,Dryden Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,272,535,Dryden Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,5.50,01042026,31032027
+RATE,273,535,Dryden Forest,POP,Poplar,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,274,535,Dryden Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.75,01042026,31032027
+RATE,275,535,Dryden Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.75,01042026,31032027
+RATE,276,535,Dryden Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,277,574,Missinaibi Forest,CON,Conifer,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,277,509,Martel Forest,CON,Conifer,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,278,509,Martel Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,278,574,Missinaibi Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,279,509,Martel Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,279,574,Missinaibi Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,280,509,Martel Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,280,574,Missinaibi Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,281,509,Martel Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,281,574,Missinaibi Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,282,574,Missinaibi Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,282,509,Martel Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,283,509,Martel Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,283,574,Missinaibi Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,284,509,Martel Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,284,574,Missinaibi Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,285,574,Missinaibi Forest,POP,Poplar,FRC,Forest Renewal Charge,0.40,01042026,31032027
+RATE,285,509,Martel Forest,POP,Poplar,FRC,Forest Renewal Charge,0.40,01042026,31032027
+RATE,286,509,Martel Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,286,574,Missinaibi Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,287,574,Missinaibi Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,287,509,Martel Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,288,574,Missinaibi Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.40,01042026,31032027
+RATE,288,509,Martel Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.40,01042026,31032027
+RATE,289,601,Hearst Forest,CON,Conifer,FRC,Forest Renewal Charge,7.25,01042026,31052026
+RATE,290,601,Hearst Forest,CON,Conifer,FRC,Forest Renewal Charge,6.75,01062026,31032027
+RATE,291,601,Hearst Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,292,601,Hearst Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,293,601,Hearst Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,294,601,Hearst Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,295,601,Hearst Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,296,601,Hearst Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,297,601,Hearst Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,298,601,Hearst Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,299,601,Hearst Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,300,601,Hearst Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,301,601,Hearst Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,302,615,Algoma Forest,CON,Conifer,FRC,Forest Renewal Charge,4.62,01042026,31032027
+RATE,303,615,Algoma Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.76,01042026,31032027
+RATE,304,615,Algoma Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,3.20,01042026,31032027
+RATE,305,615,Algoma Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.22,01042026,31032027
+RATE,306,615,Algoma Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.83,01042026,31032027
+RATE,307,615,Algoma Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,4.51,01042026,31032027
+RATE,308,615,Algoma Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.68,01042026,31032027
+RATE,309,615,Algoma Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.51,01042026,31032027
+RATE,310,615,Algoma Forest,POP,Poplar,FRC,Forest Renewal Charge,0.49,01042026,31032027
+RATE,311,615,Algoma Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,4.85,01042026,31032027
+RATE,312,615,Algoma Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.85,01042026,31032027
+RATE,313,615,Algoma Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.49,01042026,31032027
+RATE,314,644,Kenora Forest,CON,Conifer,FRC,Forest Renewal Charge,6.62,01042026,31032027
+RATE,315,644,Kenora Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,3.31,01042026,31032027
+RATE,316,644,Kenora Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.82,01042026,31032027
+RATE,317,644,Kenora Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.66,01042026,31032027
+RATE,318,644,Kenora Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.66,01042026,31032027
+RATE,319,644,Kenora Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.53,01042026,31032027
+RATE,320,644,Kenora Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,321,644,Kenora Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.62,01042026,31032027
+RATE,322,644,Kenora Forest,POP,Poplar,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,323,644,Kenora Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,9.38,01042026,31032027
+RATE,324,644,Kenora Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,9.38,01042026,31032027
+RATE,325,644,Kenora Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.16,01042026,31032027
+RATE,326,680,Northshore Forest,CON,Conifer,FRC,Forest Renewal Charge,4.74,01042026,31032027
+RATE,327,680,Northshore Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.16,01042026,31032027
+RATE,328,680,Northshore Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,4.16,01042026,31032027
+RATE,329,680,Northshore Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.41,01042026,31032027
+RATE,330,680,Northshore Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,331,680,Northshore Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,332,680,Northshore Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,333,680,Northshore Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,334,680,Northshore Forest,POP,Poplar,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,335,680,Northshore Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,8.28,01042026,31032027
+RATE,336,680,Northshore Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,337,680,Northshore Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.62,01042026,31032027
+RATE,338,702,Lac Seul Forest,CON,Conifer,FRC,Forest Renewal Charge,5.50,01042026,31032027
+RATE,339,702,Lac Seul Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,340,702,Lac Seul Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,341,702,Lac Seul Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,342,702,Lac Seul Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,343,702,Lac Seul Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,344,702,Lac Seul Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,345,702,Lac Seul Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,346,702,Lac Seul Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,347,702,Lac Seul Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,348,702,Lac Seul Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,349,702,Lac Seul Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,350,754,Nipissing Forest,CON,Conifer,FRC,Forest Renewal Charge,5.53,01042026,31032027
+RATE,351,754,Nipissing Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.52,01042026,31032027
+RATE,352,754,Nipissing Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,7.44,01042026,31032027
+RATE,353,754,Nipissing Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.57,01042026,31032027
+RATE,354,754,Nipissing Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.20,01042026,31032027
+RATE,355,754,Nipissing Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.34,01042026,31032027
+RATE,356,754,Nipissing Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.40,01042026,31032027
+RATE,357,754,Nipissing Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.80,01042026,31032027
+RATE,358,754,Nipissing Forest,POP,Poplar,FRC,Forest Renewal Charge,0.59,01042026,31032027
+RATE,359,754,Nipissing Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,360,754,Nipissing Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,5.76,01042026,31032027
+RATE,361,754,Nipissing Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.59,01042026,31032027
+RATE,362,780,Ottawa Valley Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,363,780,Ottawa Valley Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,364,780,Ottawa Valley Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,365,780,Ottawa Valley Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,366,780,Ottawa Valley Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,367,780,Ottawa Valley Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.80,01042026,31032027
+RATE,368,780,Ottawa Valley Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,369,780,Ottawa Valley Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,370,780,Ottawa Valley Forest,POP,Poplar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,371,780,Ottawa Valley Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,372,780,Ottawa Valley Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,2.00,01042026,31032027
+RATE,373,780,Ottawa Valley Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,374,796,Lakehead Forest,CON,Conifer,FRC,Forest Renewal Charge,6.50,01042026,31032027
+RATE,375,796,Lakehead Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,376,796,Lakehead Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,377,796,Lakehead Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,378,796,Lakehead Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,379,796,Lakehead Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.00,01042026,31032027
+RATE,380,796,Lakehead Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,1.75,01042026,31032027
+RATE,381,796,Lakehead Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,382,796,Lakehead Forest,POP,Poplar,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,383,796,Lakehead Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,384,796,Lakehead Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,385,796,Lakehead Forest,WBR,White Birch,FRC,Forest Renewal Charge,1.00,01042026,31032027
+RATE,386,816,Lake Nipigon Forest,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,387,816,Lake Nipigon Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,5.20,01042026,31032027
+RATE,388,816,Lake Nipigon Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,389,816,Lake Nipigon Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,390,816,Lake Nipigon Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,391,816,Lake Nipigon Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.75,01042026,31032027
+RATE,392,816,Lake Nipigon Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,393,816,Lake Nipigon Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,2.50,01042026,31032027
+RATE,394,816,Lake Nipigon Forest,POP,Poplar,FRC,Forest Renewal Charge,0.65,01042026,31032027
+RATE,395,816,Lake Nipigon Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.20,01042026,31032027
+RATE,396,816,Lake Nipigon Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.20,01042026,31032027
+RATE,397,816,Lake Nipigon Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.65,01042026,31032027
+RATE,398,840,Red Lake Forest,CON,Conifer,FRC,Forest Renewal Charge,5.85,01042026,31032027
+RATE,399,840,Red Lake Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,3.50,01042026,31032027
+RATE,400,840,Red Lake Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,401,840,Red Lake Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,402,840,Red Lake Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,403,840,Red Lake Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.25,01042026,31032027
+RATE,404,840,Red Lake Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,405,840,Red Lake Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,406,840,Red Lake Forest,POP,Poplar,FRC,Forest Renewal Charge,0.90,01042026,31032027
+RATE,407,840,Red Lake Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,408,840,Red Lake Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,409,840,Red Lake Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.90,01042026,31032027
+RATE,410,889,Sudbury Forest,CON,Conifer,FRC,Forest Renewal Charge,5.49,01042026,31032027
+RATE,411,889,Sudbury Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.69,01042026,31032027
+RATE,412,889,Sudbury Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.78,01042026,31032027
+RATE,413,889,Sudbury Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.65,01042026,31032027
+RATE,414,889,Sudbury Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.14,01042026,31032027
+RATE,415,889,Sudbury Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,1.77,01042026,31032027
+RATE,416,889,Sudbury Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.38,01042026,31032027
+RATE,417,889,Sudbury Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,3.80,01042026,31032027
+RATE,418,889,Sudbury Forest,POP,Poplar,FRC,Forest Renewal Charge,0.69,01042026,31032027
+RATE,419,889,Sudbury Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,10.98,01042026,31032027
+RATE,420,889,Sudbury Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.59,01042026,31032027
+RATE,421,889,Sudbury Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.69,01042026,31032027
+RATE,422,898,Temagami Forest,CON,Conifer,FRC,Forest Renewal Charge,6.70,01042026,31032027
+RATE,423,898,Temagami Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,1.18,01042026,31032027
+RATE,424,898,Temagami Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,4.70,01042026,31032027
+RATE,425,898,Temagami Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.47,01042026,31032027
+RATE,426,898,Temagami Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.47,01042026,31032027
+RATE,427,898,Temagami Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,3.19,01042026,31032027
+RATE,428,898,Temagami Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.71,01042026,31032027
+RATE,429,898,Temagami Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,6.70,01042026,31032027
+RATE,430,898,Temagami Forest,POP,Poplar,FRC,Forest Renewal Charge,0.71,01042026,31032027
+RATE,431,898,Temagami Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,12.93,01042026,31032027
+RATE,432,898,Temagami Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,7.26,01042026,31032027
+RATE,433,898,Temagami Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.71,01042026,31032027
+RATE,434,930,Romeo Malette Forest,CON,Conifer,FRC,Forest Renewal Charge,5.30,01042026,31032027
+RATE,435,930,Romeo Malette Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.30,01042026,31032027
+RATE,436,930,Romeo Malette Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,437,930,Romeo Malette Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,438,930,Romeo Malette Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,439,930,Romeo Malette Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,440,930,Romeo Malette Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,441,930,Romeo Malette Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,442,930,Romeo Malette Forest,POP,Poplar,FRC,Forest Renewal Charge,0.53,01042026,31032027
+RATE,443,930,Romeo Malette Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,444,930,Romeo Malette Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,445,930,Romeo Malette Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.53,01042026,31032027
+RATE,446,966,Pic Forest,CON,Conifer,FRC,Forest Renewal Charge,7.50,01042026,31032027
+RATE,447,966,Pic Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,4.25,01042026,31032027
+RATE,448,966,Pic Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,449,966,Pic Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,450,966,Pic Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,451,966,Pic Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,452,966,Pic Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,453,966,Pic Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,454,966,Pic Forest,POP,Poplar,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,455,966,Pic Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,456,966,Pic Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,11.00,01042026,31032027
+RATE,457,966,Pic Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.48,01042026,31032027
+RATE,458,990,Southern Ontario,CON,Conifer,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,459,990,Southern Ontario,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,460,990,Southern Ontario,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,461,990,Southern Ontario,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,462,990,Southern Ontario,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,463,990,Southern Ontario,MIX,Mixedwood,FRC,Forest Renewal Charge,3.75,01042026,31032027
+RATE,464,990,Southern Ontario,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.25,01042026,31032027
+RATE,465,990,Southern Ontario,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,466,990,Southern Ontario,POP,Poplar,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,467,990,Southern Ontario,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,12.50,01042026,31032027
+RATE,468,990,Southern Ontario,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,5.00,01042026,31032027
+RATE,469,990,Southern Ontario,WBR,White Birch,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,470,991,Northwest Ontario,CON,Conifer,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,471,991,Northwest Ontario,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,472,991,Northwest Ontario,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,473,991,Northwest Ontario,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,474,991,Northwest Ontario,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,475,991,Northwest Ontario,MIX,Mixedwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,476,991,Northwest Ontario,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,477,991,Northwest Ontario,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,478,991,Northwest Ontario,POP,Poplar,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,479,991,Northwest Ontario,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,480,991,Northwest Ontario,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,481,991,Northwest Ontario,WBR,White Birch,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,482,992,Northeast Ontario,CON,Conifer,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,483,992,Northeast Ontario,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,484,992,Northeast Ontario,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,485,992,Northeast Ontario,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,486,992,Northeast Ontario,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,487,992,Northeast Ontario,MIX,Mixedwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,488,992,Northeast Ontario,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,489,992,Northeast Ontario,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,490,992,Northeast Ontario,POP,Poplar,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,491,992,Northeast Ontario,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,492,992,Northeast Ontario,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,493,992,Northeast Ontario,WBR,White Birch,FRC,Forest Renewal Charge,0.00,01042026,31032027
+RATE,494,994,Whitefeather Forest,CON,Conifer,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,495,994,Whitefeather Forest,HEC,Hemlock / Cedar,FRC,Forest Renewal Charge,3.50,01042026,31032027
+RATE,496,994,Whitefeather Forest,HG1,Hardwood - Grade 1,FRC,Forest Renewal Charge,8.00,01042026,31032027
+RATE,497,994,Whitefeather Forest,HG2,Hardwood - Grade 2,FRC,Forest Renewal Charge,1.50,01042026,31032027
+RATE,498,994,Whitefeather Forest,MHW,Mixedwood Hardwood,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,499,994,Whitefeather Forest,MIX,Mixedwood,FRC,Forest Renewal Charge,2.25,01042026,31032027
+RATE,500,994,Whitefeather Forest,MPB,Mixedwood Poplar / White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,501,994,Whitefeather Forest,MSW,Mixedwood Softwood,FRC,Forest Renewal Charge,4.00,01042026,31032027
+RATE,502,994,Whitefeather Forest,POP,Poplar,FRC,Forest Renewal Charge,0.50,01042026,31032027
+RATE,503,994,Whitefeather Forest,PR1,Red Pine / White Pine Category 1,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,504,994,Whitefeather Forest,PR2,Red Pine / White Pine Category 2,FRC,Forest Renewal Charge,6.00,01042026,31032027
+RATE,505,994,Whitefeather Forest,WBR,White Birch,FRC,Forest Renewal Charge,0.50,01042026,31032027

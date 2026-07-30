@@ -1,0 +1,641 @@
+TYPE,RATE_ID,PRODUCT_TYPE_CODE,PRODUCT_TYPE_NAME,SPECIES_GROUP_CODE,SPECIES_GROUP_NAME,RATE_TYPE_CODE,RATE_TYPE_NAME,RATE,EFFECTIVE_DATE,EXPIRY_DATE
+RATE,1,BCG,Biomass Cogeneration,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,2,BCG,Biomass Cogeneration,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,3,BCG,Biomass Cogeneration,CON,Conifer,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,4,BCG,Biomass Cogeneration,,ConiferTest,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,5,BCG,Biomass Cogeneration,CON,Conifer,MS,Minimum Value Charge,0,01042026,30042026
+RATE,6,BCG,Biomass Cogeneration,CON,Conifer,MS,Minimum Value Charge,0,01052026,31052026
+RATE,7,BCG,Biomass Cogeneration,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,8,BCG,Biomass Cogeneration,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,9,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,10,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,11,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,12,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,13,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,14,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,15,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,16,BCG,Biomass Cogeneration,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,17,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,18,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,19,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,20,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,21,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,22,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,23,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,24,BCG,Biomass Cogeneration,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,25,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,26,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,27,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,28,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,29,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,30,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,31,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,32,BCG,Biomass Cogeneration,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,33,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,34,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,35,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,36,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,37,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,38,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,39,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,40,BCG,Biomass Cogeneration,MHW,Mixedwood Hardwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,41,BCG,Biomass Cogeneration,MIX,Mixedwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,42,BCG,Biomass Cogeneration,MIX,Mixedwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,43,BCG,Biomass Cogeneration,MIX,Mixedwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,44,BCG,Biomass Cogeneration,MIX,Mixedwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,45,BCG,Biomass Cogeneration,MIX,Mixedwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,46,BCG,Biomass Cogeneration,MIX,Mixedwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,47,BCG,Biomass Cogeneration,MIX,Mixedwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,48,BCG,Biomass Cogeneration,MIX,Mixedwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,49,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,50,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,51,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,52,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,53,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,54,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,55,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,56,BCG,Biomass Cogeneration,MPB,Mixedwood Poplar / White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,57,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,58,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,59,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,60,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,61,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,62,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,63,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,64,BCG,Biomass Cogeneration,MSW,Mixedwood Softwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,65,BCG,Biomass Cogeneration,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,66,BCG,Biomass Cogeneration,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,67,BCG,Biomass Cogeneration,POP,Poplar,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,68,BCG,Biomass Cogeneration,POP,Poplar,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,69,BCG,Biomass Cogeneration,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,70,BCG,Biomass Cogeneration,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,71,BCG,Biomass Cogeneration,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,72,BCG,Biomass Cogeneration,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,73,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,74,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,75,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,76,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,77,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,78,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,79,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,80,BCG,Biomass Cogeneration,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,81,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,82,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,83,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,84,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,85,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,86,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,87,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,88,BCG,Biomass Cogeneration,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,89,BCG,Biomass Cogeneration,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,90,BCG,Biomass Cogeneration,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,91,BCG,Biomass Cogeneration,WBR,White Birch,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,92,BCG,Biomass Cogeneration,WBR,White Birch,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,93,BCG,Biomass Cogeneration,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,94,BCG,Biomass Cogeneration,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,95,BCG,Biomass Cogeneration,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,96,BCG,Biomass Cogeneration,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,97,COM,Composite,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,98,COM,Composite,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,99,COM,Composite,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,100,COM,Composite,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,101,COM,Composite,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,102,COM,Composite,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,103,COM,Composite,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,104,COM,Composite,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,105,COM,Composite,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,106,COM,Composite,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,107,COM,Composite,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,108,COM,Composite,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,109,COM,Composite,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,110,COM,Composite,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,111,COM,Composite,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,112,COM,Composite,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,113,COM,Composite,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,114,COM,Composite,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,115,COM,Composite,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,116,COM,Composite,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,117,COM,Composite,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,118,COM,Composite,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,119,COM,Composite,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,120,COM,Composite,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,121,COM,Composite,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,122,COM,Composite,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,123,COM,Composite,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,124,COM,Composite,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,125,COM,Composite,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,126,COM,Composite,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,127,COM,Composite,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,2,01042026,30042026
+RATE,128,COM,Composite,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,2,01052026,31052026
+RATE,129,COM,Composite,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,130,COM,Composite,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,131,COM,Composite,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,132,COM,Composite,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,133,COM,Composite,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,134,COM,Composite,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,135,COM,Composite,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,136,COM,Composite,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,137,COM,Composite,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,138,COM,Composite,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,139,COM,Composite,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,140,COM,Composite,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,141,COM,Composite,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,142,COM,Composite,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,143,COM,Composite,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,144,COM,Composite,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,145,COM,Composite,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,146,COM,Composite,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,147,COM,Composite,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,148,COM,Composite,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,149,COM,Composite,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,150,COM,Composite,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,151,COM,Composite,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,152,COM,Composite,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,153,COM,Composite,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,154,COM,Composite,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,155,COM,Composite,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,156,COM,Composite,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,157,COM,Composite,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,158,COM,Composite,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,159,COM,Composite,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,160,COM,Composite,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,161,FUE,Commercial Fuelwood,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,162,FUE,Commercial Fuelwood,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,163,FUE,Commercial Fuelwood,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,164,FUE,Commercial Fuelwood,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,165,FUE,Commercial Fuelwood,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,166,FUE,Commercial Fuelwood,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,167,FUE,Commercial Fuelwood,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,168,FUE,Commercial Fuelwood,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,169,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,170,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,171,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,172,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,173,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,174,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,175,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,176,FUE,Commercial Fuelwood,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,177,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,178,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,179,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,180,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,181,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,182,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,183,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,184,FUE,Commercial Fuelwood,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,185,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,186,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,187,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,188,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,189,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,190,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,191,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,192,FUE,Commercial Fuelwood,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,193,FUE,Commercial Fuelwood,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,194,FUE,Commercial Fuelwood,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,195,FUE,Commercial Fuelwood,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,196,FUE,Commercial Fuelwood,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,197,FUE,Commercial Fuelwood,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,198,FUE,Commercial Fuelwood,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,199,FUE,Commercial Fuelwood,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,200,FUE,Commercial Fuelwood,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,201,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,202,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,203,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,204,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,205,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,206,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,207,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,208,FUE,Commercial Fuelwood,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,209,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,210,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,211,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,212,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,213,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,214,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,215,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,216,FUE,Commercial Fuelwood,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,217,FUE,Commercial Fuelwood,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,218,FUE,Commercial Fuelwood,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,219,FUE,Commercial Fuelwood,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,220,FUE,Commercial Fuelwood,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,221,FUE,Commercial Fuelwood,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,222,FUE,Commercial Fuelwood,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,223,FUE,Commercial Fuelwood,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,224,FUE,Commercial Fuelwood,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,225,NES,Not Elsewhere Specified,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,226,NES,Not Elsewhere Specified,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,227,NES,Not Elsewhere Specified,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,228,NES,Not Elsewhere Specified,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,229,NES,Not Elsewhere Specified,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,230,NES,Not Elsewhere Specified,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,231,NES,Not Elsewhere Specified,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,232,NES,Not Elsewhere Specified,CON,Conifer,SFR,Residual Value Charge,0.06,01052026,31052026
+RATE,233,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,234,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,235,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,236,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,237,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,238,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,239,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,240,NES,Not Elsewhere Specified,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0.06,01052026,31052026
+RATE,241,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,242,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,243,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,244,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,245,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,246,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,247,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,248,NES,Not Elsewhere Specified,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,249,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,250,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,251,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,252,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,253,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,254,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,255,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0.4,01042026,30042026
+RATE,256,NES,Not Elsewhere Specified,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0.4,01052026,31052026
+RATE,257,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,258,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,259,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,260,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,261,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,262,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,263,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,264,NES,Not Elsewhere Specified,MHW,Mixedwood Hardwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,265,NES,Not Elsewhere Specified,MIX,Mixedwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,266,NES,Not Elsewhere Specified,MIX,Mixedwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,267,NES,Not Elsewhere Specified,MIX,Mixedwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,268,NES,Not Elsewhere Specified,MIX,Mixedwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,269,NES,Not Elsewhere Specified,MIX,Mixedwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,270,NES,Not Elsewhere Specified,MIX,Mixedwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,271,NES,Not Elsewhere Specified,MIX,Mixedwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,272,NES,Not Elsewhere Specified,MIX,Mixedwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,273,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,274,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,275,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,276,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,277,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,278,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,279,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,280,NES,Not Elsewhere Specified,MPB,Mixedwood Poplar / White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,281,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,282,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,283,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,FRI,Forest Resource Inventory,0.59,01042026,30042026
+RATE,284,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,FRI,Forest Resource Inventory,0.59,01052026,31052026
+RATE,285,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,MS,Minimum Value Charge,0,01042026,30042026
+RATE,286,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,MS,Minimum Value Charge,0,01052026,31052026
+RATE,287,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,SFR,Residual Value Charge,0,01042026,30042026
+RATE,288,NES,Not Elsewhere Specified,MSW,Mixedwood Softwood,SFR,Residual Value Charge,0,01052026,31052026
+RATE,289,NES,Not Elsewhere Specified,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,290,NES,Not Elsewhere Specified,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,291,NES,Not Elsewhere Specified,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,292,NES,Not Elsewhere Specified,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,293,NES,Not Elsewhere Specified,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,294,NES,Not Elsewhere Specified,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,295,NES,Not Elsewhere Specified,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,296,NES,Not Elsewhere Specified,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,297,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,298,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,299,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,300,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,301,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,302,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,303,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,304,NES,Not Elsewhere Specified,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,305,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,306,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,307,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,308,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,309,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,310,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,311,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,312,NES,Not Elsewhere Specified,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,313,NES,Not Elsewhere Specified,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,314,NES,Not Elsewhere Specified,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,315,NES,Not Elsewhere Specified,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,316,NES,Not Elsewhere Specified,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,317,NES,Not Elsewhere Specified,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,318,NES,Not Elsewhere Specified,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,319,NES,Not Elsewhere Specified,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,320,NES,Not Elsewhere Specified,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,321,PAP,Paper,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,322,PAP,Paper,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,323,PAP,Paper,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,324,PAP,Paper,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,325,PAP,Paper,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,326,PAP,Paper,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,327,PAP,Paper,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,328,PAP,Paper,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,329,PAP,Paper,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,330,PAP,Paper,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,331,PAP,Paper,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,332,PAP,Paper,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,333,PAP,Paper,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,334,PAP,Paper,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,335,PAP,Paper,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,336,PAP,Paper,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,337,PAP,Paper,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,338,PAP,Paper,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,339,PAP,Paper,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,340,PAP,Paper,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,341,PAP,Paper,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,342,PAP,Paper,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,343,PAP,Paper,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,344,PAP,Paper,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,345,PAP,Paper,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,346,PAP,Paper,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,347,PAP,Paper,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,348,PAP,Paper,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,349,PAP,Paper,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,350,PAP,Paper,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,351,PAP,Paper,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,352,PAP,Paper,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,353,PAP,Paper,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,354,PAP,Paper,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,355,PAP,Paper,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,356,PAP,Paper,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,357,PAP,Paper,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,358,PAP,Paper,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,359,PAP,Paper,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,360,PAP,Paper,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,361,PAP,Paper,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,362,PAP,Paper,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,363,PAP,Paper,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,364,PAP,Paper,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,365,PAP,Paper,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,366,PAP,Paper,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,367,PAP,Paper,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,368,PAP,Paper,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,369,PAP,Paper,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,370,PAP,Paper,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,371,PAP,Paper,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,372,PAP,Paper,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,373,PAP,Paper,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,374,PAP,Paper,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,375,PAP,Paper,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,376,PAP,Paper,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,377,PAP,Paper,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,378,PAP,Paper,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,379,PAP,Paper,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,380,PAP,Paper,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,381,PAP,Paper,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,382,PAP,Paper,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,383,PAP,Paper,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,384,PAP,Paper,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,385,PUL,Pulp,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,386,PUL,Pulp,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,387,PUL,Pulp,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,388,PUL,Pulp,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,389,PUL,Pulp,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,390,PUL,Pulp,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,391,PUL,Pulp,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,392,PUL,Pulp,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,393,PUL,Pulp,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,394,PUL,Pulp,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,395,PUL,Pulp,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,396,PUL,Pulp,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,397,PUL,Pulp,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,398,PUL,Pulp,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,399,PUL,Pulp,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,400,PUL,Pulp,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,401,PUL,Pulp,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,402,PUL,Pulp,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,403,PUL,Pulp,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,404,PUL,Pulp,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,405,PUL,Pulp,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,406,PUL,Pulp,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,407,PUL,Pulp,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,408,PUL,Pulp,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,409,PUL,Pulp,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,410,PUL,Pulp,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,411,PUL,Pulp,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,412,PUL,Pulp,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,413,PUL,Pulp,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,414,PUL,Pulp,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,415,PUL,Pulp,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,416,PUL,Pulp,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,417,PUL,Pulp,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,418,PUL,Pulp,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,419,PUL,Pulp,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,420,PUL,Pulp,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,421,PUL,Pulp,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,422,PUL,Pulp,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,423,PUL,Pulp,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,424,PUL,Pulp,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,425,PUL,Pulp,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,426,PUL,Pulp,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,427,PUL,Pulp,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,428,PUL,Pulp,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,429,PUL,Pulp,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01042026,30042026
+RATE,430,PUL,Pulp,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,0,01052026,31052026
+RATE,431,PUL,Pulp,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,432,PUL,Pulp,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,433,PUL,Pulp,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,434,PUL,Pulp,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,435,PUL,Pulp,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,436,PUL,Pulp,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,437,PUL,Pulp,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,438,PUL,Pulp,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,439,PUL,Pulp,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,440,PUL,Pulp,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,441,PUL,Pulp,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,442,PUL,Pulp,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,443,PUL,Pulp,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,444,PUL,Pulp,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,445,PUL,Pulp,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,446,PUL,Pulp,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,447,PUL,Pulp,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,448,PUL,Pulp,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,449,SAW,Sawmill,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,450,SAW,Sawmill,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,451,SAW,Sawmill,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,452,SAW,Sawmill,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,453,SAW,Sawmill,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,454,SAW,Sawmill,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,455,SAW,Sawmill,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,456,SAW,Sawmill,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,457,SAW,Sawmill,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,458,SAW,Sawmill,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,459,SAW,Sawmill,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,460,SAW,Sawmill,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,461,SAW,Sawmill,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,462,SAW,Sawmill,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,463,SAW,Sawmill,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,464,SAW,Sawmill,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,465,SAW,Sawmill,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,466,SAW,Sawmill,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,467,SAW,Sawmill,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,468,SAW,Sawmill,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,469,SAW,Sawmill,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,470,SAW,Sawmill,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,471,SAW,Sawmill,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,472,SAW,Sawmill,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,473,SAW,Sawmill,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,474,SAW,Sawmill,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,475,SAW,Sawmill,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,476,SAW,Sawmill,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,477,SAW,Sawmill,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,478,SAW,Sawmill,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,479,SAW,Sawmill,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,480,SAW,Sawmill,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,481,SAW,Sawmill,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,482,SAW,Sawmill,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,483,SAW,Sawmill,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,484,SAW,Sawmill,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,485,SAW,Sawmill,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,486,SAW,Sawmill,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,487,SAW,Sawmill,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,488,SAW,Sawmill,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,489,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,490,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,491,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,492,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,493,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,494,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,495,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,496,SAW,Sawmill,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,497,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,498,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,499,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,500,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,501,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,502,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,503,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,504,SAW,Sawmill,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,505,SAW,Sawmill,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,506,SAW,Sawmill,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,507,SAW,Sawmill,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,508,SAW,Sawmill,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,509,SAW,Sawmill,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,510,SAW,Sawmill,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,511,SAW,Sawmill,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,512,SAW,Sawmill,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,513,SKL,Sunken Logs,CON,Conifer,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,514,SKL,Sunken Logs,CON,Conifer,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,515,SKL,Sunken Logs,CON,Conifer,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,516,SKL,Sunken Logs,CON,Conifer,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,517,SKL,Sunken Logs,CON,Conifer,MS,Minimum Value Charge,25,01042026,30042026
+RATE,518,SKL,Sunken Logs,CON,Conifer,MS,Minimum Value Charge,25,01052026,31052026
+RATE,519,SKL,Sunken Logs,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,520,SKL,Sunken Logs,CON,Conifer,SFR,Residual Value Charge,0,01052026,31052026
+RATE,521,SKL,Sunken Logs,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,522,SKL,Sunken Logs,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,523,SKL,Sunken Logs,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,524,SKL,Sunken Logs,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,525,SKL,Sunken Logs,HEC,Hemlock / Cedar,MS,Minimum Value Charge,25,01042026,30042026
+RATE,526,SKL,Sunken Logs,HEC,Hemlock / Cedar,MS,Minimum Value Charge,25,01052026,31052026
+RATE,527,SKL,Sunken Logs,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,528,SKL,Sunken Logs,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,529,SKL,Sunken Logs,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,530,SKL,Sunken Logs,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,531,SKL,Sunken Logs,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,532,SKL,Sunken Logs,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,533,SKL,Sunken Logs,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,25,01042026,30042026
+RATE,534,SKL,Sunken Logs,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,25,01052026,31052026
+RATE,535,SKL,Sunken Logs,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,536,SKL,Sunken Logs,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,537,SKL,Sunken Logs,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,538,SKL,Sunken Logs,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,539,SKL,Sunken Logs,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,540,SKL,Sunken Logs,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,541,SKL,Sunken Logs,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,25,01042026,30042026
+RATE,542,SKL,Sunken Logs,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,25,01052026,31052026
+RATE,543,SKL,Sunken Logs,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,544,SKL,Sunken Logs,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,545,SKL,Sunken Logs,POP,Poplar,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,546,SKL,Sunken Logs,POP,Poplar,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,547,SKL,Sunken Logs,POP,Poplar,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,548,SKL,Sunken Logs,POP,Poplar,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,549,SKL,Sunken Logs,POP,Poplar,MS,Minimum Value Charge,25,01042026,30042026
+RATE,550,SKL,Sunken Logs,POP,Poplar,MS,Minimum Value Charge,25,01052026,31052026
+RATE,551,SKL,Sunken Logs,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,552,SKL,Sunken Logs,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,553,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,554,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,555,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,556,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,557,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,25,01042026,30042026
+RATE,558,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,25,01052026,31052026
+RATE,559,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,560,SKL,Sunken Logs,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,561,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,562,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,563,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,564,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,565,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,25,01042026,30042026
+RATE,566,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,25,01052026,31052026
+RATE,567,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,568,SKL,Sunken Logs,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,569,SKL,Sunken Logs,WBR,White Birch,FFF,Forestry Futures Charge,0,01042026,30042026
+RATE,570,SKL,Sunken Logs,WBR,White Birch,FFF,Forestry Futures Charge,0,01052026,31052026
+RATE,571,SKL,Sunken Logs,WBR,White Birch,FRI,Forest Resource Inventory,0,01042026,30042026
+RATE,572,SKL,Sunken Logs,WBR,White Birch,FRI,Forest Resource Inventory,0,01052026,31052026
+RATE,573,SKL,Sunken Logs,WBR,White Birch,MS,Minimum Value Charge,25,01042026,30042026
+RATE,574,SKL,Sunken Logs,WBR,White Birch,MS,Minimum Value Charge,25,01052026,31052026
+RATE,575,SKL,Sunken Logs,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,576,SKL,Sunken Logs,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026
+RATE,577,VEN,Veneer,CON,Conifer,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,578,VEN,Veneer,CON,Conifer,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,579,VEN,Veneer,CON,Conifer,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,580,VEN,Veneer,CON,Conifer,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,581,VEN,Veneer,CON,Conifer,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,582,VEN,Veneer,CON,Conifer,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,583,VEN,Veneer,CON,Conifer,SFR,Residual Value Charge,0,01042026,30042026
+RATE,584,VEN,Veneer,CON,Conifer,SFR,Residual Value Charge,0.28,01052026,31052026
+RATE,585,VEN,Veneer,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,586,VEN,Veneer,HEC,Hemlock / Cedar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,587,VEN,Veneer,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,588,VEN,Veneer,HEC,Hemlock / Cedar,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,589,VEN,Veneer,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,590,VEN,Veneer,HEC,Hemlock / Cedar,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,591,VEN,Veneer,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,592,VEN,Veneer,HEC,Hemlock / Cedar,SFR,Residual Value Charge,0.28,01052026,31052026
+RATE,593,VEN,Veneer,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,594,VEN,Veneer,HG1,Hardwood - Grade 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,595,VEN,Veneer,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,596,VEN,Veneer,HG1,Hardwood - Grade 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,597,VEN,Veneer,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,598,VEN,Veneer,HG1,Hardwood - Grade 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,599,VEN,Veneer,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,600,VEN,Veneer,HG1,Hardwood - Grade 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,601,VEN,Veneer,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,602,VEN,Veneer,HG2,Hardwood - Grade 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,603,VEN,Veneer,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,604,VEN,Veneer,HG2,Hardwood - Grade 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,605,VEN,Veneer,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,606,VEN,Veneer,HG2,Hardwood - Grade 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,607,VEN,Veneer,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,608,VEN,Veneer,HG2,Hardwood - Grade 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,609,VEN,Veneer,POP,Poplar,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,610,VEN,Veneer,POP,Poplar,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,611,VEN,Veneer,POP,Poplar,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,612,VEN,Veneer,POP,Poplar,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,613,VEN,Veneer,POP,Poplar,MS,Minimum Value Charge,0,01042026,30042026
+RATE,614,VEN,Veneer,POP,Poplar,MS,Minimum Value Charge,0,01052026,31052026
+RATE,615,VEN,Veneer,POP,Poplar,SFR,Residual Value Charge,0,01042026,30042026
+RATE,616,VEN,Veneer,POP,Poplar,SFR,Residual Value Charge,0,01052026,31052026
+RATE,617,VEN,Veneer,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,618,VEN,Veneer,PR1,Red Pine / White Pine Category 1,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,619,VEN,Veneer,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,2.5,01042026,30042026
+RATE,620,VEN,Veneer,PR1,Red Pine / White Pine Category 1,FRI,Forest Resource Inventory,2.5,01052026,31052026
+RATE,621,VEN,Veneer,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,3.56,01042026,30042026
+RATE,622,VEN,Veneer,PR1,Red Pine / White Pine Category 1,MS,Minimum Value Charge,3.56,01052026,31052026
+RATE,623,VEN,Veneer,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01042026,30042026
+RATE,624,VEN,Veneer,PR1,Red Pine / White Pine Category 1,SFR,Residual Value Charge,0,01052026,31052026
+RATE,625,VEN,Veneer,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,626,VEN,Veneer,PR2,Red Pine / White Pine Category 2,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,627,VEN,Veneer,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,628,VEN,Veneer,PR2,Red Pine / White Pine Category 2,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,629,VEN,Veneer,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01042026,30042026
+RATE,630,VEN,Veneer,PR2,Red Pine / White Pine Category 2,MS,Minimum Value Charge,0,01052026,31052026
+RATE,631,VEN,Veneer,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01042026,30042026
+RATE,632,VEN,Veneer,PR2,Red Pine / White Pine Category 2,SFR,Residual Value Charge,0,01052026,31052026
+RATE,633,VEN,Veneer,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01042026,30042026
+RATE,634,VEN,Veneer,WBR,White Birch,FFF,Forestry Futures Charge,0.69,01052026,31052026
+RATE,635,VEN,Veneer,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01042026,30042026
+RATE,636,VEN,Veneer,WBR,White Birch,FRI,Forest Resource Inventory,0.79,01052026,31052026
+RATE,637,VEN,Veneer,WBR,White Birch,MS,Minimum Value Charge,0,01042026,30042026
+RATE,638,VEN,Veneer,WBR,White Birch,MS,Minimum Value Charge,0,01052026,31052026
+RATE,639,VEN,Veneer,WBR,White Birch,SFR,Residual Value Charge,0,01042026,30042026
+RATE,640,VEN,Veneer,WBR,White Birch,SFR,Residual Value Charge,0,01052026,31052026

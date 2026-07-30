@@ -1,0 +1,50 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [TYPE]
+      ,[FACTOR_ID]
+      ,[APPROVAL_NUMBER]
+      ,[SCALING_METHOD_CODE]
+      ,[TALLY_DESTINATION_CODE]
+      ,[TALLY_SPECIES_CODE]
+      ,[TALLY_GRADE]
+      ,[CONTAINER_CODE]
+      ,[CHARGE_TYPE]
+      ,[LICENCE_NUMBER]
+      ,[ACCOUNT_CODE]
+      ,[MANAGEMENT_UNIT]
+      ,[REDUCTION_RATE]
+      ,[EFFECTIVE_DATE]
+      ,[EXPIRY_DATE]
+      ,[DESTINATION_CODE]
+      ,[PRODUCT_TYPE]
+      ,[DESTINATION_TYPE]
+      ,[TAX_CODE]
+      ,[TAX_RATE]
+      ,[SPECIES_CODE]
+      ,[SPECIES_GROUP]
+      ,[GRADE]
+      ,[DESTINATION_SHARE]
+      ,[SPECIES_SHARE]
+      ,[GRADE_SHARE]
+      ,[MASS_VOLUME_RATIO]
+      ,[TREE_LENGTH_TABLE]
+      ,[CONTAINER_VOLUME]
+      ,[UNDERSIZE_DEDUCTION]
+      ,[CULL_DEDUCTION]
+      ,[ID]
+  FROM [AZ_TEST_IMPORTER].[dbo].[MNR_FACTOR_RATES]
+
+    SELECT 
+    [FACTOR_ID],
+    TALLY_DESTINATION_CODE,
+	DESTINATION_CODE,
+	SPECIES_CODE,
+    COUNT(*) AS [DuplicateCount]
+FROM 
+    [MNR_FACTOR_RATES] -- Replace with your actual table name
+GROUP BY 
+    [FACTOR_ID],
+    TALLY_DESTINATION_CODE,
+	DESTINATION_CODE,
+	SPECIES_CODE
+HAVING 
+    COUNT(*) > 1;
