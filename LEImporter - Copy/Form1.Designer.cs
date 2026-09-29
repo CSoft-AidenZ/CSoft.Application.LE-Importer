@@ -97,12 +97,7 @@ namespace LEImporter
             this.Controls.Add(this.btnImportFile);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            // 1. get project ver.
-            string version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
-
-            // 2. Get ver. in text
-            this.Text = $"Logger's Edge Importer v{version}";
-
+            this.Text = "Logger\'s Edge Importer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

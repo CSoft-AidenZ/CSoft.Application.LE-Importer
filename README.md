@@ -91,6 +91,8 @@ The current phase supports the following three monthly forestry report streams:
    ```
 
 ### Building the Project
+* Credential file nuget.config is ignored for security reason and need to be asked for gathering. Please contact Aiden or build your own package credentials to get the CSoft.Shared.Libraries.Logging package.
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/LE-Importer.git
