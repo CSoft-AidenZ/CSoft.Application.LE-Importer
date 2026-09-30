@@ -74,7 +74,7 @@ namespace LEImporter
                     try
                     {
                         FileClassifier classifier = new FileClassifier();
-                        DataTable result = classifier.FileParse(openFileDialog.OpenFile());
+                        DataTable result = classifier.FileParse(openFileDialog.OpenFile(), SelectedFilePath);
 
                         // Variables to hold background thread results
                         RateType classifiedResult = RateType.Invalid_DATA;
@@ -88,7 +88,7 @@ namespace LEImporter
                             if (classifiedResult == RateType.Invalid_DATA || classifyEx != null)
                             {
                                 // Throwing inside Task.Run will safely bubble up to the outer catch block on the UI thread
-                                throw new IOException($"Import File Error: {classifyEx?.Message ?? "Unrecognized CSV format."}");
+                                throw new IOException($"Import File Error: {classifyEx?.Message ?? "Unrecognized file format."}");
                             }
 
                             // 2. Process and Import data to database (passing progress here)

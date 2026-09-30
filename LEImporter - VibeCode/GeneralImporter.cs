@@ -13,7 +13,8 @@ namespace LEImporter
         Invalid_DATA,
         STUMPAGE_RATES,
         RENEWAL_RATES,
-        FACTOR_RATES
+        FACTOR_RATES,
+        INV_DETAIL_BY_BOL
     }
     class GeneralImporter
     {
@@ -28,29 +29,38 @@ namespace LEImporter
                 return default;
             }
 
-            // 1. Check for Renewal Rates columns
+            // 1. Check for INV Detail by BOL columns first (xlsx Sheet 2 "Data"
+            // also contains MANAGEMENT_UNIT_CODE/NAME, so it must win over RENEWAL).
+            if (datatable.Columns.Contains("INVOICE_NUM") &&
+                datatable.Columns.Contains("TALLY_ID") &&
+                datatable.Columns.Contains("BOL"))
+            {
+                return RateType.INV_DETAIL_BY_BOL;
+            }
+
+            // 2. Check for Renewal Rates columns
             if (datatable.Columns.Contains("MANAGEMENT_UNIT_CODE") &&
                 datatable.Columns.Contains("MANAGEMENT_UNIT_NAME"))
             {
                 return RateType.RENEWAL_RATES;
             }
 
-            // 2. Check for Stumpage Rates columns
+            // 3. Check for Stumpage Rates columns
             if (datatable.Columns.Contains("PRODUCT_TYPE_CODE") &&
                 datatable.Columns.Contains("PRODUCT_TYPE_NAME"))
             {
                 return RateType.STUMPAGE_RATES;
             }
 
-            // 3. Check for Factor Rates columns
+            // 4. Check for Factor Rates columns
             if (datatable.Columns.Contains("FACTOR_ID") &&
                 datatable.Columns.Contains("TALLY_DESTINATION_CODE"))
             {
                 return RateType.FACTOR_RATES;
             }
 
-            // 4. If no signature columns match, set exception and return default
-            ex = new ArgumentException("Unrecognized CSV format: Table columns do not match any known RateType schema.");
+            // 5. If no signature columns match, set exception and return default
+            ex = new ArgumentException("Unrecognized file format: Table columns do not match any known RateType schema.");
             return default;
         }
         public static int GeneralImport(RateType rateType, DataTable datatable, IProgress<int> progress, out Exception ex)
@@ -85,6 +95,11 @@ namespace LEImporter
                     case RateType.FACTOR_RATES:
                         var factorResult = FactorRatesSchemaRepository.UpsertFactorRates(datatable, progress, connString);
                         processedCount = factorResult.InsertedOrUpdatedCount;
+                        break;
+
+                    case RateType.INV_DETAIL_BY_BOL:
+                        var invResult = InvDetailByBolRepository.UpsertInvDetailByBol(datatable, progress, connString);
+                        processedCount = invResult.InsertedOrUpdatedCount;
                         break;
 
                     default:
