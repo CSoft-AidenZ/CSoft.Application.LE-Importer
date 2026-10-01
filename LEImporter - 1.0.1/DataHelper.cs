@@ -13,21 +13,7 @@ namespace LE_Importer
             if (rawValue == null || rawValue == DBNull.Value || string.IsNullOrWhiteSpace(rawValue.ToString()))
                 return null;
 
-            if (rawValue is DateTime already)
-                return already;
-
             string strValue = rawValue.ToString().Trim();
-
-            // Excel OADate serials (e.g. 46265 for xlsx date cells read as numbers)
-            double oa;
-            if (double.TryParse(strValue, NumberStyles.Any, CultureInfo.InvariantCulture, out oa)
-                || double.TryParse(strValue, NumberStyles.Any, CultureInfo.CurrentCulture, out oa))
-            {
-                if (oa >= 20000 && oa <= 80000)
-                {
-                    try { return DateTime.FromOADate(oa); } catch { }
-                }
-            }
 
             // Pad with leading zero if 7 digits (e.g. 1042026 -> 01042026)
             if (strValue.Length == 7)

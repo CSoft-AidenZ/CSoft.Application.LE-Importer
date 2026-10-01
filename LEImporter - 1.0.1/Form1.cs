@@ -17,12 +17,6 @@ namespace LEImporter
         public Form1()
         {
             InitializeComponent();
-
-            // Prefer the App.config display version; fall back to assembly version.
-            string version = System.Configuration.ConfigurationManager.AppSettings["appVersion"];
-            if (string.IsNullOrWhiteSpace(version))
-                version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
-            this.Text = $"Logger's Edge Importer v{version}";
         }
 
         // Property to store the selected file path for later use in the import process
@@ -80,14 +74,11 @@ namespace LEImporter
                     try
                     {
                         FileClassifier classifier = new FileClassifier();
-                        DataTable result = classifier.FileParse(openFileDialog.OpenFile(), SelectedFilePath);
+                        DataTable result = classifier.FileParse(openFileDialog.OpenFile());
 
                         // Variables to hold background thread results
                         RateType classifiedResult = RateType.Invalid_DATA;
-                        int inserted = 0;
-                        int updated = 0;
-                        int unchanged = 0;
-                        int total = 0;
+                        int rowsProcessed = 0;
 
                         await Task.Run(() =>
                         {
@@ -97,15 +88,11 @@ namespace LEImporter
                             if (classifiedResult == RateType.Invalid_DATA || classifyEx != null)
                             {
                                 // Throwing inside Task.Run will safely bubble up to the outer catch block on the UI thread
-                                throw new IOException($"Import File Error: {classifyEx?.Message ?? "Unrecognized file format."}");
+                                throw new IOException($"Import File Error: {classifyEx?.Message ?? "Unrecognized CSV format."}");
                             }
 
                             // 2. Process and Import data to database (passing progress here)
-                            var importResult = GeneralImporter.GeneralImport(classifiedResult, result, progress, out Exception importEx);
-                            inserted = importResult.Inserted;
-                            updated = importResult.Updated;
-                            unchanged = importResult.Unchanged;
-                            total = importResult.Total;
+                            rowsProcessed = GeneralImporter.GeneralImport(classifiedResult, result, progress, out Exception importEx);
 
                             if (importEx != null)
                             {
@@ -114,9 +101,9 @@ namespace LEImporter
                         });
 
                         // --- Back on the UI thread here ---
-                        lblSelectedFile.Text = $"Import completed! {inserted} inserted, {updated} updated, {unchanged} unchanged skipped ({total} total in file).";
-                        Logger.Success($"Import finished. Inserted: {inserted}, Updated: {updated}, Unchanged: {unchanged}, Total in file: {total}.");
-                        MessageBox.Show($"Successfully imported {inserted + updated} rows ({inserted} inserted, {updated} updated, {unchanged} unchanged skipped)!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lblSelectedFile.Text = $"Import completed! {rowsProcessed} rows are processed.";
+                        Logger.Success($"Import finished. Processed: {rowsProcessed} rows.");
+                        MessageBox.Show($"Successfully processed {rowsProcessed} rows!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         if (result != null && result.Rows.Count > 0)
                         {
