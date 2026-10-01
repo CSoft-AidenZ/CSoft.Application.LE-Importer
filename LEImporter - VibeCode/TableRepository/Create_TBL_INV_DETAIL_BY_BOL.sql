@@ -1,6 +1,7 @@
 -- TBL_INV_DETAIL_BY_BOL DDL
 -- Source: xlsx Sheet 2 "Data" (04-IFIS Supplementary Info - INV Detail by BOL)
--- 13-col combined key (BOL excluded, BOL NULLABLE per user request).
+-- 14-col combined key since 1.0.5 (BOL added to the key; BOL NULLABLE so the
+-- MERGE matches NULL to NULL explicitly).
 IF OBJECT_ID(N'dbo.TBL_INV_DETAIL_BY_BOL', N'U') IS NULL
 BEGIN
 CREATE TABLE dbo.TBL_INV_DETAIL_BY_BOL (
@@ -61,14 +62,20 @@ CREATE TABLE dbo.TBL_INV_DETAIL_BY_BOL (
 END
 GO
 
--- Covering index for the 13-col MERGE key (avoids 900-byte UNIQUE limit).
-IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_TBL_INV_DETAIL_BY_BOL_13KEY' AND object_id = OBJECT_ID(N'dbo.TBL_INV_DETAIL_BY_BOL'))
+-- Covering index for the 14-col MERGE key (avoids 900-byte UNIQUE limit).
+IF NOT EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_TBL_INV_DETAIL_BY_BOL_14KEY' AND object_id = OBJECT_ID(N'dbo.TBL_INV_DETAIL_BY_BOL'))
 BEGIN
-CREATE NONCLUSTERED INDEX IX_TBL_INV_DETAIL_BY_BOL_13KEY
+CREATE NONCLUSTERED INDEX IX_TBL_INV_DETAIL_BY_BOL_14KEY
 ON dbo.TBL_INV_DETAIL_BY_BOL (
     INVOICE_NUM, TALLY_ID, TRANSMISSION_ID, USER_ID, MANAGEMENT_UNIT_CODE,
     CUSTOMER_ID, ADDRESS_ID, LICENCE_NUM, APPROVAL_NUM, PROCESSING_SITE_CODE,
-    SCALING_METHOD_CODE, SPECIES_CODE, TALLY_DESTINATION
+    SCALING_METHOD_CODE, SPECIES_CODE, TALLY_DESTINATION, BOL
 );
 END
 GO
+
+-- Migration for existing databases (1.0.4 -> 1.0.5): replace the old 13-col
+-- index. Run in a maintenance window on large tables.
+-- IF EXISTS (SELECT 1 FROM sys.indexes WHERE name = N'IX_TBL_INV_DETAIL_BY_BOL_13KEY' AND object_id = OBJECT_ID(N'dbo.TBL_INV_DETAIL_BY_BOL'))
+--     DROP INDEX IX_TBL_INV_DETAIL_BY_BOL_13KEY ON dbo.TBL_INV_DETAIL_BY_BOL;
+-- GO

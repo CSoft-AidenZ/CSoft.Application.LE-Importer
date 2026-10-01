@@ -63,7 +63,7 @@ namespace LEImporter
             ex = new ArgumentException("Unrecognized file format: Table columns do not match any known RateType schema.");
             return default;
         }
-        public static int GeneralImport(RateType rateType, DataTable datatable, IProgress<int> progress, out Exception ex)
+        public static (int Inserted, int Updated, int Unchanged, int Total) GeneralImport(RateType rateType, DataTable datatable, IProgress<int> progress, out Exception ex)
         {
             ex = null; // Must be assigned before returning in 'out' parameters
 
@@ -75,51 +75,63 @@ namespace LEImporter
                 if (string.IsNullOrEmpty(connString))
                 {
                     ex = new InvalidOperationException($"Database connection failed: {errorMsg}");
-                    return 0;
+                    return (0, 0, 0, 0);
                 }
                 // Notify UI that database setup is complete and execution is starting (50%)
                 progress?.Report(20);
-                int processedCount = 0;
+                int inserted = 0;
+                int updated = 0;
+                int unchanged = 0;
                 switch (rateType)
                 {
                     case RateType.STUMPAGE_RATES:
                         var stumpageResult = StumpageRateRepository.UpsertStumpageRates(datatable, progress, connString);
-                        processedCount = stumpageResult.InsertedOrUpdatedCount;
+                        inserted = stumpageResult.Inserted;
+                        updated = stumpageResult.Updated;
+                        unchanged = stumpageResult.Unchanged;
                         break;
 
                     case RateType.RENEWAL_RATES:
                         var renewalResult = RenewalRatesSchemaRepository.UpsertRenewalRates(datatable, progress, connString);
-                        processedCount = renewalResult.InsertedOrUpdatedCount;
+                        inserted = renewalResult.Inserted;
+                        updated = renewalResult.Updated;
+                        unchanged = renewalResult.Unchanged;
                         break;
 
                     case RateType.FACTOR_RATES:
                         var factorResult = FactorRatesSchemaRepository.UpsertFactorRates(datatable, progress, connString);
-                        processedCount = factorResult.InsertedOrUpdatedCount;
+                        inserted = factorResult.Inserted;
+                        updated = factorResult.Updated;
+                        unchanged = factorResult.Unchanged;
                         break;
 
                     case RateType.INV_DETAIL_BY_BOL:
                         var invResult = InvDetailByBolRepository.UpsertInvDetailByBol(datatable, progress, connString);
-                        processedCount = invResult.InsertedOrUpdatedCount;
+                        inserted = invResult.Inserted;
+                        updated = invResult.Updated;
+                        unchanged = invResult.Unchanged;
                         break;
 
                     default:
                         ex = new ArgumentOutOfRangeException(nameof(rateType), rateType, "Unsupported RateType");
-                        return 0;
+                        return (0, 0, 0, 0);
                 }
 
                 // 2. Notify UI that database operation has completed (100%)
                 progress?.Report(100);
 
-                // 3. Log Results
-                Logger.Success($"Import finished. Processed: {processedCount} rows.");
+                int total = datatable != null ? datatable.Rows.Count : 0;
 
-                return processedCount;
+                // 3. Log Results
+                Logger.Success($"Import finished. Inserted: {inserted}, Updated: {updated}, Unchanged: {unchanged}, Total in file: {total}.");
+
+                return (inserted, updated, unchanged, total);
             }
             catch (Exception caughtEx)
             {
                 ex = caughtEx; // Pass the exception out to the caller
                 Logger.Error("Import failed during execution.", caughtEx);
-                return -1;
+                return (-1, 0, 0, 0);
             }
         }
     }
