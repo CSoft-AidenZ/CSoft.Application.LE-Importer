@@ -8,7 +8,7 @@ The window title falls back to the assembly version if `App.config` has no `appV
 ## [1.0.5] - 2026-10-01
 
 ### Changed
-- `BOL` added to the `INV_DETAIL_BY_BOL` MERGE key (13-col -> 14-col), so
+- `BOL`, `MASS_SLIP_NUMBER`, `MEASURED_UNITS` added to the `INV_DETAIL_BY_BOL` MERGE key (13-col -> 14-col), so
   rows differing only by BOL coexist instead of overwriting each other.
   (A temporary `[DUP-KEY]` diagnostic confirmed the old key collapsed such
   rows, and was removed again in this same release.)
