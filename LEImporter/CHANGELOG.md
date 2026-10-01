@@ -5,6 +5,15 @@ The display version is `appVersion` in `App.config` (single source of truth);
 `AssemblyVersion` / `AssemblyFileVersion` in `Properties/AssemblyInfo.cs` are kept in sync.
 The window title falls back to the assembly version if `App.config` has no `appVersion` key.
 
+## [Unreleased]
+
+### Changed
+- Renamed table `TBL_INV_DETAIL_BY_BOL` → `MNR_INV_DETAILS` (`RateType.INV_DETAIL_BY_BOL` unchanged).
+  `GenericUpsertRepository` profile, DDL `TableRepository/Create_MNR_INV_DETAILS.sql`,
+  and covering index `IX_MNR_INV_DETAILS_14KEY` updated. Existing databases:
+  `EXEC sp_rename N'dbo.TBL_INV_DETAIL_BY_BOL', N'MNR_INV_DETAILS'` then drop
+  old `IX_TBL_INV_DETAIL_BY_BOL_*` indexes (see migration snippet in the new SQL file).
+
 ## [1.0.5] - 2026-10-01
 
 ### Changed
