@@ -7,15 +7,11 @@ The window title falls back to the assembly version if `App.config` has no `appV
 
 ## [1.0.5] - 2026-10-01
 
-### Added
-- Temporary `[DUP-KEY]` diagnostic in `GenericUpsertRepository`: each import
-  logs file-row groups sharing the pre-BOL 13-col key (DataTable row numbers
-  + BOL values) to find rows that overwrote each other under last-wins.
-  To be removed after the investigation.
-
 ### Changed
 - `BOL` added to the `INV_DETAIL_BY_BOL` MERGE key (13-col -> 14-col), so
   rows differing only by BOL coexist instead of overwriting each other.
+  (A temporary `[DUP-KEY]` diagnostic confirmed the old key collapsed such
+  rows, and was removed again in this same release.)
 - `MERGE ON` clause is now NULL-safe for NULLABLE key columns (driven by
   `IS_NULLABLE` from `INFORMATION_SCHEMA`): `(Target = Source OR (both NULL))`.
   Without this, NULL-BOL rows would never match and re-imports would INSERT

@@ -50,7 +50,7 @@ namespace LEImporter
                 { RateType.FACTOR_RATES, new TableProfile("MNR_FACTOR_RATES", new[] { "FACTOR_ID", "TALLY_DESTINATION_CODE", "DESTINATION_CODE", "SPECIES_CODE" }) },
                 { RateType.RENEWAL_RATES, new TableProfile("MNR_RENEWAL_RATES", new[] { "RATE_ID", "MANAGEMENT_UNIT_CODE" }) },
                 { RateType.STUMPAGE_RATES, new TableProfile("MNR_STUMPAGE_RATES", new[] { "RATE_ID", "PRODUCT_TYPE_CODE" }) },
-                { RateType.INV_DETAIL_BY_BOL, new TableProfile("TBL_INV_DETAIL_BY_BOL", new[] { "INVOICE_NUM", "TALLY_ID", "TRANSMISSION_ID", "USER_ID", "MANAGEMENT_UNIT_CODE", "CUSTOMER_ID", "ADDRESS_ID", "LICENCE_NUM", "APPROVAL_NUM", "PROCESSING_SITE_CODE", "SCALING_METHOD_CODE", "SPECIES_CODE", "TALLY_DESTINATION", "BOL" }) },
+                { RateType.INV_DETAIL_BY_BOL, new TableProfile("TBL_INV_DETAIL_BY_BOL", new[] { "INVOICE_NUM", "TALLY_ID", "TRANSMISSION_ID", "USER_ID", "MANAGEMENT_UNIT_CODE", "CUSTOMER_ID", "ADDRESS_ID", "LICENCE_NUM", "APPROVAL_NUM", "PROCESSING_SITE_CODE", "SCALING_METHOD_CODE", "SPECIES_CODE", "TALLY_DESTINATION", "BOL", "MASS_SLIP_NUMBER", "MEASURED_UNITS" }) },
             };
 
         // Schema cache per table (case-insensitive key).
@@ -96,11 +96,6 @@ namespace LEImporter
 
             // Merge columns = DB columns (ordinal order) present in the file.
             List<ColumnMeta> mergeCols = schema.Where(c => fileCols.ContainsKey(c.Name)).ToList();
-
-            // TEMP-DIAGNOSTIC (remove after duplicate-key investigation): report file
-            // rows sharing the pre-BOL key, i.e. rows that overwrote each other
-            // under the old 13-col last-wins key. See LogDuplicateKeyGroups.
-            LogDuplicateKeyGroups(dt, profile, fileCols);
 
             // Validate configured keys exist in BOTH db schema and file.
             var schemaNames = new HashSet<string>(schema.Select(c => c.Name), StringComparer.OrdinalIgnoreCase);
@@ -180,91 +175,6 @@ namespace LEImporter
         public static void ClearSchemaCache()
         {
             SchemaCache.Clear();
-        }
-
-        // ------------------------------------------------------------------
-        // TEMP-DIAGNOSTIC: logs groups of file rows sharing the same key when
-        // BOL is ignored, i.e. rows that overwrote each other (last-wins) under
-        // the old 13-col key. Remove after the duplicate-key investigation.
-        // Row numbers are 1-based DataTable rows (excluding the header); they
-        // match Excel rows +1 only if the sheet has no blank rows (blanks are
-        // skipped by the parser). Use the logged key values with Excel filter
-        // to pinpoint exact rows.
-        // ------------------------------------------------------------------
-        private static void LogDuplicateKeyGroups(DataTable dt, TableProfile profile, Dictionary<string, DataColumn> fileCols)
-        {
-            try
-            {
-                string[] groupKeys = profile.KeyColumns
-                    .Where(k => !string.Equals(k, "BOL", StringComparison.OrdinalIgnoreCase))
-                    .ToArray();
-
-                var rowNumbers = new Dictionary<string, List<int>>();
-                var keyText = new Dictionary<string, string>();
-                var bolCol = fileCols.ContainsKey("BOL") ? fileCols["BOL"] : null;
-
-                for (int i = 0; i < dt.Rows.Count; i++)
-                {
-                    DataRow row = dt.Rows[i];
-                    var parts = new List<string>();
-                    foreach (string k in groupKeys)
-                    {
-                        DataColumn dc;
-                        if (!fileCols.TryGetValue(k, out dc))
-                        {
-                            parts.Add("?");
-                            continue;
-                        }
-                        object v = row[dc];
-                        parts.Add(v == null || v == DBNull.Value ? "<NULL>" : v.ToString().Trim());
-                    }
-                    string gk = string.Join("þ", parts.ToArray());
-                    List<int> list;
-                    if (!rowNumbers.TryGetValue(gk, out list))
-                    {
-                        list = new List<int>();
-                        rowNumbers[gk] = list;
-                        keyText[gk] = string.Join(" | ", groupKeys.Zip(parts, (a, b) => a + "=" + b).ToArray());
-                    }
-                    list.Add(i + 1);
-                }
-
-                int dupGroups = 0;
-                foreach (var kv in rowNumbers)
-                {
-                    if (kv.Value.Count > 1)
-                    {
-                        dupGroups++;
-                        if (dupGroups <= 50)
-                            Logger.Warning(string.Format("[DUP-KEY] {0} file rows share key [{1}] at DataTable rows {2}.",
-                                kv.Value.Count, keyText[kv.Key], string.Join(", ", kv.Value.ConvertAll(n => n.ToString()).ToArray())));
-                    }
-                }
-                Logger.Info(string.Format("[DUP-KEY] Scan complete on '{0}': {1} duplicate-key group(s) in file.", profile.TableName, dupGroups));
-
-                // Also report BOL values inside each duplicate group (first 10 groups).
-                if (dupGroups > 0 && bolCol != null)
-                {
-                    int shown = 0;
-                    foreach (var kv in rowNumbers)
-                    {
-                        if (kv.Value.Count <= 1 || shown >= 10)
-                            continue;
-                        shown++;
-                        var bols = new List<string>();
-                        foreach (int n in kv.Value)
-                        {
-                            object v = dt.Rows[n - 1][bolCol];
-                            bols.Add(string.Format("row {0}: BOL={1}", n, v == null || v == DBNull.Value ? "<NULL>" : "'" + v.ToString().Trim() + "'"));
-                        }
-                        Logger.Warning("[DUP-KEY] Key [" + keyText[kv.Key] + "] -> " + string.Join("; ", bols.ToArray()));
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.Warning("[DUP-KEY] Scan failed: " + ex.Message);
-            }
         }
 
         // ------------------------------------------------------------------
